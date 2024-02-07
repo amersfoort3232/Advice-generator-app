@@ -130,16 +130,24 @@ picture{
 
 .dice-container{
   align-items: center;
-  background-color: hsl(150, 100%, 66%);
   justify-content: center;
-  margin-bottom: -2.5rem;
-  border-radius: 5rem;
-  padding:1rem;
-  max-width: fit-content;
+  margin-bottom: -2.75rem;
 }
 
 .divider-container{
   padding-bottom:3rem;
+}
+
+.dice {
+  background-image: url("./images/icon-dice.svg");
+  padding:2rem;
+  width:1.5em;
+  border-radius: 50%;
+  height:1.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsl(150, 100%, 66%);
+  border-style: none;
 }
 
 footer {
